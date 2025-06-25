@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marreco Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Marreco Click</h1>
+
+    <script src="script.js"></script>
+
+    <button id="botaoClique" onclick="clicar()">
+        <img class="pato" src="image/patopng.png" alt="Pato">
+    </button>
+
+    <div id="pontuacao">
+        <p id="pontos">Pontuação Atual: 0</p>
+        <p id="valor">Valor do Clique: 1</p>
+        <p id="upgrades">Upgrades Comprados: 0</p>
+    </div>
+
+    <div id="loja-upgrades">
+        <h2>Compra de Upgrades</h2>
+        <button onclick="comprarUpgrade(1)">Upgrade 1 (+1 por clique) - 10 pontos</button><br>
+        <button onclick="comprarUpgrade(2)">Upgrade 2 (+8 por clique) - 50 pontos</button><br>
+        <button onclick="comprarUpgrade(3)">Upgrade 3 (+32 por clique) - 100 pontos</button>
+    </div>
+
+    <script src="updates.js"></script>
+</body>
+</html>
