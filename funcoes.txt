@@ -62,3 +62,60 @@ Testar o jogo e corrigir bugs.
 
 📦 Entregável: parte do script.js responsável pelos upgrades e pela lógica de evolução.
 
+
+👤 Pessoa 1 – Protótipo HTML com comentários
+Responsável por:
+
+Criar a estrutura completa em HTML do jogo, com divs, botões e textos.
+
+Comentar no código onde o CSS e o JavaScript serão aplicados.
+
+Usar ids e classs já prontos para facilitar a integração depois.
+
+💡 Exemplo:
+
+html
+Copiar
+Editar
+<button id="botaoClique">Clique Aqui!</button> <!-- JS: aumentar pontuação -->
+<span id="pontuacao">0</span> <!-- JS: atualizar pontos -->
+📦 Entrega: index.html completo e bem comentado.
+
+👤 Pessoa 2 – Estilo CSS separado (com base em IDs e classes)
+Responsável por:
+
+Criar um arquivo CSS separado (style.css) usando nomes genéricos de classes e IDs.
+
+Aplicar estilo visual para todos os elementos esperados, com base nos comentários do HTML.
+
+Pode usar HTML de teste para visualizar estilos, mas o foco é deixar o CSS pronto para aplicar direto no projeto final.
+
+📦 Entrega: style.css estilizado, pronto para ser conectado ao HTML.
+
+👤 Pessoa 3 – JavaScript: Pontuação e clique (independente)
+Responsável por:
+
+Criar um arquivo JavaScript independente (script.js) que:
+
+Aumenta a pontuação ao clicar.
+
+Atualiza o texto na tela.
+
+Simular elementos com document.getElementById mesmo sem HTML pronto, usando código de teste.
+
+📦 Entrega: script funcional que pode ser plugado no HTML depois.
+
+👤 Pessoa 4 – JavaScript: Upgrades (independente)
+Responsável por:
+
+Criar funções para:
+
+Verificar pontuação mínima para upgrade.
+
+Aumentar valor por clique.
+
+Subtrair pontos corretamente.
+
+Simular valores com variáveis no próprio script.
+
+📦 Entrega: funções JS para upgrades, prontas para serem integradas no final.
