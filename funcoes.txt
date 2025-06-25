@@ -1,0 +1,64 @@
+👤 Pessoa 1 – HTML + Estrutura da Página
+Responsável por:
+
+Criar a estrutura do HTML (elementos da interface).
+
+Criar e posicionar:
+
+Título do jogo
+
+Botão de clique (“Clique Aqui!”)
+
+Exibição da pontuação atual, valor do clique e número de upgrades.
+
+Botões para comprar os upgrades.
+
+Organizar os elementos com identificadores (id ou class) para facilitar o uso no JS e no CSS.
+
+📦 Entregável: arquivo index.html com a base do jogo pronta para receber estilos e scripts.
+
+👤 Pessoa 2 – CSS + Estilo Visual
+Responsável por:
+
+Criar o design visual com CSS:
+
+Layout centralizado e responsivo.
+
+Estilo do botão de clique e dos botões de upgrade.
+
+Cores, fontes, e espaçamento para melhor usabilidade.
+
+Criar pequenos efeitos visuais (hover, transições, etc).
+
+📦 Entregável: arquivo style.css bem organizado, deixando o jogo visualmente atrativo.
+
+👤 Pessoa 3 – Lógica JavaScript (pontuação e cliques)
+Responsável por:
+
+Criar as variáveis principais:
+
+pontuacao, valorClique, upgradesComprados, etc.
+
+Programar o aumento de pontuação ao clicar no botão.
+
+Exibir dinamicamente as informações na tela (pontuação, valor por clique).
+
+📦 Entregável: parte do script.js que cuida da pontuação e da mecânica de clique.
+
+👤 Pessoa 4 – Lógica JavaScript (upgrades e validações)
+Responsável por:
+
+Criar a lógica dos upgrades:
+
+Verificar se o jogador tem pontos suficientes.
+
+Subtrair os pontos e aplicar o novo valor por clique.
+
+Gerenciar os níveis e preços dos upgrades.
+
+Garantir que o jogo continue até alcançar 500 pontos.
+
+Testar o jogo e corrigir bugs.
+
+📦 Entregável: parte do script.js responsável pelos upgrades e pela lógica de evolução.
+
