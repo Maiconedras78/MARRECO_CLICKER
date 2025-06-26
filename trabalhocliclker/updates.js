@@ -4,6 +4,10 @@ let upgradesComprados = 0;
 
 function clicar() {
     pontos += valorClique;
+    if (pontos >= 500) {
+        alert("Você ganhou");
+        location.reload(true);
+    }
     atualizarTela();
 }
 
@@ -21,7 +25,6 @@ function comprarUpgrade(id) {
         custo = 100;
         bonus = 32;
     }
-
     if (pontos >= custo) {
         pontos -= custo;
         valorClique += bonus;
